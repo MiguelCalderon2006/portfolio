@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.querySelectorAll('nav a').forEach(anchor => {
     anchor.addEventListener('click', function(event) {
-        event.preventDefault();
         const sectionID = this.getAttribute('href');
         const section = document.querySelector(sectionID);
 

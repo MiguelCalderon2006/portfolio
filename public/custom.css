@@ -9,15 +9,15 @@
 
 
 .animate-expand:hover {
-  animation: expand 1s ease-in-out forwards;
+  animation: expand .25s ease-in-out forwards;
 }
 
 @keyframes expand {
   from {
-    width: 0;
+    width: 13rem;
   }
 
   to {
-    width: 24 rem;
+    width: 24rem;
   }
 }
